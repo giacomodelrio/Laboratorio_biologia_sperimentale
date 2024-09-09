@@ -3,6 +3,7 @@ import ast
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
+#con questo script si creano file .xlsx in cui vengono aggiunti alle colonne relative a longitudine, latitudine e tempo le colonne contenenti i dati estrapolati dal sito ngdc.noa.gov relativi al campo magnetico terrestre che ci interessano. Vengono poi realizzati i grafici che mettono in relazione le coordinate con i valori di telta rispetto a partenza e/o arrivo.
 
 info = ["inclination", "totalintensity", "horintensity"]
 
